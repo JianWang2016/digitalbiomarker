@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Arma | Multi-Purpose HTML5 Template</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile view -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.css">
+
+<!-- Google fonts - witch you want to use - (rest you can just remove) -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+<!-- Template's stylesheets -->
+<link rel="stylesheet" href="js/megamenu/stylesheets/screen.css">
+<link rel="stylesheet" href="js/megamenu/stylesheets/onepage.css">
+<link rel="stylesheet" href="css/theme-default.css" type="text/css">
+<link rel="stylesheet" href="js/loaders/stylesheets/screen.css">
+<link rel="stylesheet" href="css/corporate.css" type="text/css">
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="fonts/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+<link rel="stylesheet" href="fonts/et-line-font/et-line-font.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/settings.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/layers.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/navigation.css">
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
+<link rel="stylesheet" href="js/form/css/sky-forms.css" type="text/css" media="all">
+<!-- Template's stylesheets END -->
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Style Customizer's stylesheets -->
+<link rel="stylesheet" type="text/css" href="js/style-customizer/css/spectrum.css">
+<link rel="stylesheet" type="text/css" href="js/style-customizer/css/style-customizer.css">
+<link rel="stylesheet/less" type="text/css" href="less/skin.less">
+<!-- Style Customizer's stylesheets END -->
+
+<!-- Skin stylesheet -->
+<!-- Currently Empty -->
+
+</head>
+
+<body data-spy="scroll" data-target="#menu">
+<div class="over-loader loader-live">
+  <div class="loader">
+    <div class="loader-item style4">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+  </div>
+</div>
+<!--end loading-->
+
+<!-- Style Customizer -->
+<section id="style-customizer">
+  <div class="style-customizer-wrap form-horizontal">
+    <h4 class="sc-header">Style Customizer</h4>
+    <h5>Layout Style</h5>
+    <div class="sc-variable-row form-group">
+      <div class="radio-group col-xs-12">
+        <input type="radio" name="sc-layout-type" id="sc-layout-type-boxed" class="sc-variable" data-key="layoutType" value="boxed" checked>
+        <input type="radio" name="sc-layout-type" id="sc-layout-type-wide" class="sc-variable" data-key="layoutType" value="wide">
+        <label for="sc-layout-type-wide" class="style-fweight-normal">Wide</label>
+        <label for="sc-layout-type-boxed" class="style-fweight-normal">Boxed</label>
+      </div>
+    </div>
+    <fieldset id="outer-bg-section">
+      <h5 class="customizer-style-tytle-padd">Outer Background Styles</h5>
+      <div class="sc-variable-row form-group">
+        <div class="col-xs-12">
+          <select name="sc-bg-outer-type" id="sc-bg-outer-type" data-key="outerBgType" class="sc-variable col-xs-8">
+            <option value="color" selected>Solid color</option>
+            <option value="pattern">Pattern</option>
+            <option value="image">Image</option>
+          </select>
+          <div class="col-xs-4">
+            <div id="sc-bg-outer-color-wrap">
+              <input type="color" name="sc-bg-outer-color" id="sc-bg-outer-color" class="sc-variable" data-key="outerBgColor">
+            </div>
+            <div id="sc-bg-outer-image-wrap">
+              <input type="file" accept="image/*" name="sc-bg-outer-image" id="sc-bg-outer-image" class="sc-variable sr-only" data-key="outerBgImage">
+              <label for="sc-bg-outer-image" class="sc-btn" title="Upload image"><i class="fa fa-upload"></i> </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <h5 class="customizer-style-tytle-padd">Color Options</h5>
+    <div class="sc-variable-row form-group style-form-group">
+      <label for="sc-color-prim" class="col-xs-8 control-label color-text">Primary Color</label>
+      <div class="col-xs-4">
+        <input type="color" id="sc-color-prim" class="sc-variable" data-key="colorPrimary">
+      </div>
+    </div>
+    <br/>
+  </div>
+  <button id="sc-toggle" title="Styles Customizer"><i class="fa fa-wrench"></i> </button>
+</section>
+<!-- Style customizer END -->
+
+
+<div class="wrapper-boxed">
+  <div class="site-wrapper">
+
+    <!-- Setup menu -->
+    <div id="section1"></div>
+    <div class="header-section pin-style style4">
+      <div class="container">
+        <div class="mod-menu">
+          <div class="row">
+            <div class="col-sm-2"> <a href="#" title="" class="logo mar-4"> <img src="images/logo/logo.png" alt=""> </a> </div>
+            <div class="col-sm-10">
+              <div class="main-nav" id="navbar-example">
+                <div id="menu" class="collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="mega-menu active"> <a href="#section1" title="">Home</a></li>
+                    <li> <a href="#section2" title="">About us</a> <span class="arrow"></span>
+                      <ul class="dm-align-2">
+                        <li> <a href="#" title="">About style 1</a> </li>
+                        <li> <a href="#" title="">About style 2</a> </li>
+                        <li> <a href="#" title="">About style 3</a> <span class="arrow"></span>
+                          <ul>
+                            <li> <a href="#" title="">Our Mission</a> </li>
+                            <li> <a href="#" title="">Our History</a> </li>
+                            <li> <a href="#" title="">Awards</a> </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li> <a href="#section3" title="">Services</a> </li>
+                    <li> <a href="#section4" title="">Team</a> </li>
+                    <li> <a href="#section5" title="blog">Gallery</a> </li>
+                    <li class="right"> <a href="#section6" title="">Contact</a> <span class="arrow"></span>
+                      <ul>
+                        <li> <a href="#" title="">Contact style 1</a> </li>
+                        <li> <a href="#" title="">Contact style 2</a> </li>
+                        <li> <a href="#" title="">Contact style 3</a> <span class="arrow"></span>
+                          <ul>
+                            <li> <a href="#" title="">Address Address</a> </li>
+                            <li> <a href="#" title="">Maps</a> </li>
+                            <li> <a href="#" title="">Forms</a> </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end menu-->
+
+    <div class="clearfix"></div>
+
+    <!-- START REVOLUTION SLIDER 5.0 -->
+    <div class="slide-tmargin">
+      <div class="slidermaxwidth">
+        <div class="rev_slider_wrapper">
+          <!-- START REVOLUTION SLIDER 5.0 auto mode -->
+          <div id="rev_slider" class="rev_slider"  data-version="5.0">
+            <ul>
+
+              <!-- SLIDE  -->
+              <li data-index="rs-1" data-transition="fade" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-description="">
+
+                <!-- MAIN IMAGE -->
+                <img src="images/sliders/digitalbiomarker1.jpg" alt=""  data-bgposition="center center" data-kenburns="off" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption ag-text-1 tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-1"
+			data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+			data-y="['top','top','top','top']" data-voffset="['300','150','150','150']"
+			data-fontsize="['40','30','30','20']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+			data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+			data-mask_in="x:0px;y:0px;"
+			data-mask_out="x:inherit;y:inherit;"
+			data-start="1000"
+			data-splitin="chars"
+			data-splitout="none"
+			data-responsive_offset="on"
+			data-elementdelay="0.1"
+			style="z-index: 5; white-space: nowrap;">Digital Biomarkers At</div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption roboto white bold uppercase tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-2"
+			data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+			data-y="['top','top','top','top']" data-voffset="['330','180','180','180']"
+      data-fontsize="['40','30','30','20']"
+			data-lineheight="['120','120','120','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+			data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+			data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+			data-start="1500"
+			data-splitin="chars"
+			data-splitout="none"
+			data-responsive_offset="on"
+            data-elementdelay="0.1"
+			style="z-index: 5; white-space: nowrap;">Lilly Clinical Trials Are Here!</div>
+              </li>
+
+              <!-- SLIDE  -->
+              <li data-index="rs-2" data-transition="slideup" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-description="">
+
+                <!-- MAIN IMAGE -->
+                <img src="images/sliders/digitalbiomarker2.jpg" alt=""  data-bgposition="center center" data-kenburns="off" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption ag-text-1 tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-1"
+			data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+			data-y="['top','top','top','top']" data-voffset="['300','150','150','150']"
+			data-fontsize="['40','30','30','20']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+			data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+			data-mask_in="x:0px;y:0px;"
+			data-mask_out="x:inherit;y:inherit;"
+			data-start="1000"
+			data-splitin="chars"
+			data-splitout="none"
+			data-responsive_offset="on"
+			data-elementdelay="0.1"
+			style="z-index: 5; white-space: nowrap;">Digital Biomarkers At </div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption roboto white bold uppercase tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-2"
+			data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+			data-y="['top','top','top','top']" data-voffset="['330','180','180','180']"
+      data-fontsize="['40','30','30','20']"
+			data-lineheight="['120','120','120','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+			data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+			data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+			data-start="1500"
+			data-splitin="chars"
+			data-splitout="none"
+			data-responsive_offset="on"
+            data-elementdelay="0.1"
+			style="z-index: 5; white-space: nowrap;">Lilly Clinical Trials Are Here!</div>
+
+              </li>
+
+              <!-- SLIDE  -->
+              <li data-index="rs-3" data-transition="slideup" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-description="">
+
+                <!-- MAIN IMAGE -->
+                <img src="images/sliders/digitalbiomarker3.jpg" alt=""  data-bgposition="center center" data-kenburns="off" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption ag-text-1 tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-1"
+			data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+			data-y="['top','top','top','top']" data-voffset="['300','150','150','150']"
+			data-fontsize="['40','30','30','20']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+			data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+			data-mask_in="x:0px;y:0px;"
+			data-mask_out="x:inherit;y:inherit;"
+			data-start="1000"
+			data-splitin="chars"
+			data-splitout="none"
+			data-responsive_offset="on"
+			data-elementdelay="0.05"
+			style="z-index: 5; white-space: nowrap;">Please Scroll Up To Learn More.</div>
+              </li>
+            </ul>
+          </div>
+          <!-- END REVOLUTION SLIDER -->
+        </div>
+      </div>
+      <!-- END REVOLUTION SLIDER WRAPPER -->
+    </div>
+    <div class="clearfix"></div>
+    <!-- END OF SLIDER WRAPPER -->
+
+    <section class="sec-padding section-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12 margin-bottom">
+            <div class="col-xs-12 text-left">
+              <h3 class="ce-sec-title font-weight-5 less-mar-1 text-white">What is Digital Biomarker </h3>
+              <br/>
+              <p class="text-white opacity-8 left-align">Digital biomarkers are participant-generated physiological or behavioral measures collected through digital devices in either controlled environments or free living conditions.</p>
+              <br/>
+              <p class="text-white opacity-8">Digital biomarkers represent an opportunity to more frequently capture clinically meaningful and objective data in cost-effective and patient-friendly manner. When correlations are established to gold standard metrics, digital biomarkers can be used to explain or predicted health-related outcomes.</p>
+              <br/>
+            </div>
+
+            <div class="clearfix"></div>
+            <!--end title-->
+
+          </div>
+          <!--end item-->
+
+          <div class="col-md-8">
+            <div class="col-md-6 col-sm-12 col-xs-12 margin-bottom">
+              <div class="icon-plain-msmall icon left white"><span class="fa fa-check"></span></div>
+              <div class="text-box-right less-padding-1">
+                <h4 class="text-white montserrat">Objective</h4>
+                <p class="text-white opacity-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.</p>
+              </div>
+            </div>
+            <!--end item-->
+
+            <div class="col-md-6 col-sm-12 col-xs-12 margin-bottom">
+              <div class="icon-plain-msmall icon left white"><span class="fa fa-check"></span></div>
+              <div class="text-box-right less-padding-1">
+                <h4 class="text-white montserrat">Reliable</h4>
+                <p class="text-white opacity-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.</p>
+              </div>
+            </div>
+            <!--end item-->
+
+            <div class="clearfix"></div>
+            <div class="col-divider-margin-6"></div>
+            <div class="col-md-6 col-sm-12 col-xs-12 margin-bottom">
+              <div class="icon-plain-msmall icon left white"><span class="fa fa-check"></span></div>
+              <div class="text-box-right less-padding-1">
+                <h4 class="text-white montserrat">Frequent</h4>
+                <p class="text-white opacity-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.</p>
+              </div>
+            </div>
+            <!--end item-->
+
+            <div class="col-md-6 col-sm-12 col-xs-12 margin-bottom">
+              <div class="icon-plain-msmall icon left white"><span class="fa fa-check"></span></div>
+              <div class="text-box-right less-padding-1">
+                <h4 class="text-white montserrat">Cost Effective</h4>
+                <p class="text-white opacity-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.</p>
+              </div>
+            </div>
+            <!--end item-->
+          </div>
+          <!--end item-->
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+
+    <div id="section2"></div>
+    <section class="sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5"> <img src="images/1.jpg" alt="" class="img-responsive"/> </div>
+          <!--end left item-->
+
+          <div class="col-md-7">
+            <div class="col-xs-12 text-left">
+              <div class="sec-title-container">
+                <h3 class="ce-sec-title font-weight-5 less-mar-1">Who We Are</h3>
+                <p class="ce-sub-title align-left raleway">Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras.</p>
+                <p class="ce-sub-title align-left raleway">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus.</p>
+                <p class="ce-sub-title align-left raleway">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum.</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <!--end right item-->
+      </div>
+      <!-- end row -->
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+
+    <div class="divider-line solid light"></div>
+
+
+
+    <div id="section3"></div>
+    <section class="parallax-2">
+      <div class="container-fluid nopadding">
+        <div class="parallax-overlay">
+          <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="sec-title-container">
+                <br/>
+                <br/>
+
+                <h3 class="ce-sec-title font-weight-5 less-mar-1 text-white">Our Expertises</h3>
+                <p class="ce-sub-title raleway text-white opacity-7">Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras.</p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--end title-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-17 margin-bottom">
+              <div class="content-box">
+                <div class="content-box-inner">
+                  <div class="iconbox-tiny outline-gray-2 round left icon"><span class="icon-camera"></span></div>
+                  <div class="clearfix"></div>
+                  <br/>
+                  <div class="text-box less-padding-4">
+                    <h5 class="less-mar-1 title nopadding font-weight-3 text-primary">Code Solution</h5>
+                    <h5 class="title uppercase nopadding">Easy to edit</h5>
+                    <p class="padding-top-1 more-padding">Lorem ipsum dolor sit amet justo consectetuer adipiscing elit sit amet Suspendisse et justo Praesent.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ce-feature-box-17 margin-bottom">
+                <div class="content-box">
+                  <div class="content-box-inner">
+                    <div class="iconbox-tiny outline-gray-2 round left icon"><span class="icon-laptop"></span></div>
+                    <div class="clearfix"></div>
+                    <br/>
+                    <div class="text-box less-padding-4">
+                      <h5 class="less-mar-1 title nopadding font-weight-3 text-primary">Design Solution</h5>
+                      <h5 class="title uppercase nopadding">Layered PSD Files</h5>
+                      <p class="padding-top-1 more-padding">Lorem ipsum dolor sit amet justo consectetuer adipiscing elit sit amet Suspendisse et justo Praesent.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end item-->
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="ce-feature-box-17 margin-bottom">
+                <div class="content-box">
+                  <div class="content-box-inner">
+                    <div class="iconbox-tiny outline-gray-2 round left icon"><span class="icon-camera"></span></div>
+                    <div class="clearfix"></div>
+                    <br/>
+                    <div class="text-box less-padding-4">
+                      <h5 class="less-mar-1 title nopadding font-weight-3 text-primary">Code Solution</h5>
+                      <h5 class="title uppercase nopadding">Easy to edit</h5>
+                      <p class="padding-top-1 more-padding">Lorem ipsum dolor sit amet justo consectetuer adipiscing elit sit amet Suspendisse et justo Praesent.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end item-->
+
+          </div>
+          <!--end item-->
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        </div>
+      </div>
+    </section>
+
+    <div class="clearfix"></div>
+    <!-- end section -->
+
+
+    <div id="section4"></div>
+    <section class="sec-padding section-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="sec-title-container">
+              <h3 class="ce-sec-title font-weight-5 less-mar-1">Meet Our Team</h3>
+              <p class="ce-sub-title raleway">Neuroscience digital biomarker team began operation in May 2016.  Since then we have grown in both size and number of projects we support.</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--end title-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Bradley Miller</h5>
+                <p class="text-primary">Founder & Sr. Director</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Lisa Adam</h5>
+                <p class="text-primary">Program Management</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Amy Calvin</h5>
+                <p class="text-primary">Clinical Implementation</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Jian Wang</h5>
+                <p class="text-primary">Bioinformatics</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Yupeng Li</h5>
+                <p class="text-primary">Bioinformatics</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Sandy</h5>
+                <p class="text-primary">External Opportunity</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Mo</h5>
+                <p class="text-primary">Statistian</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Krishna</h5>
+                <p class="text-primary">Database Administrator</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="ce-feature-box-5 margin-bottom">
+              <div class="img-box-main">
+                <div class="img-box">
+                  <img src="images/bradMiller.jpeg" alt="" class="img-responsive"/> </div>
+              </div>
+              <div class="text-box text-left">
+                <h5 class="less-mar-1">Chakib</h5>
+                <p class="text-primary">Statistician</p>
+                <br/>
+                <p>Suspendisse et justo Lorem ipsum dolor sit amet consectetuer adipiscing elit lorem ipsum sit amet justo.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+
+
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+
+    <div id="section5"></div>
+    <section class="parallax-2">
+      <div class="container-fluid nopadding">
+        <div class="parallax-overlay">
+        <div class="col-xs-12 text-center">
+          <div class="sec-title-container">
+            <br/>
+            <br/>
+            <h3 class="ce-sec-title font-weight-5 less-mar-1 text-white">Featured Projects</h3>
+            <p class="ce-sub-title raleway text-white opacity-7">Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <!--end title-->
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12" >
+            <div class="ce-feature-box-12">
+              <div class="img-box">
+                <div class="overlay text-center">
+                  <h6 class="text-white less-mar-1">Customer iOS App</h6>
+                  <h4 class="text-white">Parksons's Disease</h4>
+                  <br/>
+                </div>
+                <img src="images/42.png" alt="" class="img-responsive"/> </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12" >
+            <div class="ce-feature-box-12">
+              <div class="img-box">
+                <div class="overlay text-center">
+                  <h6 class="text-white less-mar-1">Customer iPad App</h6>
+                  <h4 class="text-white">Parkson's Disease Dementia</h4>
+                  <br/>
+                </div>
+                <img src="images/43.jpg" alt="" class="img-responsive"/> </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-4 col-sm-6 col-xs-12" >
+            <div class="ce-feature-box-12">
+              <div class="img-box">
+                <div class="overlay text-center">
+                  <h6 class="text-white less-mar-1">Digital Clock Test</h6>
+                  <h4 class="text-white">Alzheimer's Disease Cognition</h4>
+                  <br/>
+                </div>
+                <img src="images/44.jpg" alt="" class="img-responsive"/> </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="clearfix"></div>
+          <div class="col-divider-margin-3"></div>
+
+        </div>
+      </div>
+    </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+
+    <div id="section6"></div>
+    <!-- entire section6 is deleted -->
+    <!-- end section -->
+
+    <section class="section-dark sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 colmargin clearfix margin-bottom">
+            <div class="fo-map">
+
+              <address>
+              <strong>Address:</strong> <br>
+              Lilly Corporate Center, <br>
+              Indianapolis, IN 46285
+              </address>
+              <span><strong>Phone:</strong> + 1 (317) 655 3496</span><br>
+              <span><strong>Email:</strong> digitalbiomarker@lilly.com </span><br>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-6 col-sm-12 col-xs-12 bmargin clearfix margin-bottom">
+            <div class="item-holder">
+              <h4 class="text-white uppercase less-mar3 font-weight-5">Recent Project Links</h4>
+              <div class="footer-title-bottomstrip gyellow"></div>
+              <div class="clearfix"></div>
+
+              <div class="fo-posts">
+                <div class="image-left"><img src="images/ce-10.jpg" alt=""/></div>
+                <div class="text-box-right">
+                  <h6 class="less-mar3 uppercase nopadding text-white"><a href="#">iPhone app</a></h6>
+                  <p>Early phase Parkson's disease trial</p>
+                </div>
+              </div>
+              <div class=" divider-line light solid light opacity-1 "></div>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <div class="fo-posts">
+                <div class="image-left"><img src="images/ce-11.jpg" alt=""/></div>
+                <div class="text-box-right">
+                  <h6 class="less-mar3 uppercase nopadding text-white"><a href="#">Digital Clock Test</a></h6>
+                  <p>Early phase Alzheimer's diseae trial</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--end item-->
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!--end section-->
+
+
+
+    <section class="parallax-2">
+      <div class="container-fluid nopadding">
+        <div class="parallax-overlay">
+          <div class="container sec-tpadding-3 sec-bpadding-3">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 colmargin clearfix margin-bottom">
+
+              <!--end item-->
+              <div class="clearfix"></div>
+              <div class="divider-line solid white opacity-3"></div>
+              <div class="fo-copyright-holder text-white text-center"> Copyright © 2017 All rights reserved. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!--end section-->
+
+    <a href="#" class="scrollup"></a><!-- end scroll to top of the page-->
+
+  </div>
+  <!--end site wrapper-->
+
+
+</div>
+<!-- end wrapper boxed-->
+
+
+<!-- Scripts -->
+<script src="js/jquery/jquery.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/style-customizer/js/spectrum.js"></script>
+<script src="js/less/less.min.js" data-env="development"></script>
+<script src="js/style-customizer/js/style-customizer.js"></script>
+<!-- Scripts END -->
+
+<!-- Template scripts -->
+<script src="js/megamenu/js/main.js"></script>
+<script src="js/megamenu/js/onepage.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
+<script src="js/owl-carousel/custom.js"></script>
+<script src="js/template-custom/js/template-custom.js"></script>
+<script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="js/cubeportfolio/main-mosaic3.js"></script>
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+(Load Extensions only on Local File Systems !
+The following part can be removed on Server for On Demand Loading) -->
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript">
+	var tpj=jQuery;
+	var revapi4;
+	tpj(document).ready(function() {
+	if(tpj("#rev_slider").revolution == undefined){
+	revslider_showDoubleJqueryError("#rev_slider");
+	}else{
+		revapi4 = tpj("#rev_slider").show().revolution({
+		sliderType:"standard",
+		jsFileLocation:"js/revolution-slider/js/",
+		sliderLayout:"auto",
+		dottedOverlay:"none",
+		delay:9000,
+		navigation: {
+		keyboardNavigation:"off",
+		keyboard_direction: "horizontal",
+		mouseScrollNavigation:"off",
+		onHoverStop:"off",
+		arrows: {
+		style:"erinyen",
+		enable:true,
+		hide_onmobile:true,
+		hide_under:778,
+		hide_onleave:true,
+		hide_delay:200,
+		hide_delay_mobile:1200,
+		tmp:'',
+		left: {
+		h_align:"left",
+		v_align:"center",
+		h_offset:80,
+		v_offset:0
+		},
+		right: {
+		h_align:"right",
+		v_align:"center",
+		h_offset:80,
+		v_offset:0
+		}
+		}
+		,
+		touch:{
+		touchenabled:"on",
+		swipe_threshold: 75,
+		swipe_min_touches: 1,
+		swipe_direction: "horizontal",
+		drag_block_vertical: false
+	}
+	,
+
+
+
+	},
+		viewPort: {
+		enable:true,
+		outof:"pause",
+		visible_area:"80%"
+	},
+
+	responsiveLevels:[1240,1024,778,480],
+	gridwidth:[1240,1024,778,480],
+	gridheight:[800,640,640,500],
+	lazyType:"smart",
+		parallax: {
+		type:"mouse",
+		origo:"slidercenter",
+		speed:2000,
+		levels:[2,3,4,5,6,7,12,16,10,50],
+		},
+	shadow:0,
+	spinner:"off",
+	stopLoop:"off",
+	stopAfterLoops:-1,
+	stopAtSlide:-1,
+	shuffle:"off",
+	autoHeight:"off",
+	hideThumbsOnMobile:"off",
+	hideSliderAtLimit:0,
+	hideCaptionAtLimit:0,
+	hideAllCaptionAtLilmit:0,
+	disableProgressBar:"on",
+	debugMode:false,
+		fallbacks: {
+		simplifyAll:"off",
+		nextSlideOnWindowFocus:"off",
+		disableFocusListener:false,
+		}
+	});
+	}
+	});	/*ready*/
+</script>
+<script src="js/form/jquery.form.min.js"></script>
+<script src="js/form/jquery.validate.min.js"></script>
+<script type="text/javascript">
+			$(function()
+			{
+				// Validation
+				$("#sky-form").validate(
+				{
+					// Rules for form validation
+					rules:
+					{
+						name:
+						{
+							required: true
+						},
+						email:
+						{
+							required: true,
+							email: true
+						},
+						message:
+						{
+							required: true,
+							minlength: 10
+						}
+					},
+
+					// Messages for form validation
+					messages:
+					{
+						name:
+						{
+							required: 'Please enter your name',
+						},
+						email:
+						{
+							required: 'Please enter your email address',
+							email: 'Please enter a VALID email address'
+						},
+						message:
+						{
+							required: 'Please enter your message'
+						}
+					},
+
+					// Ajax form submition
+					submitHandler: function(form)
+					{
+						$(form).ajaxSubmit(
+						{
+							success: function()
+							{
+								$("#sky-form").addClass('submited');
+							}
+						});
+					},
+
+					// Do not change code below
+					errorPlacement: function(error, element)
+					{
+						error.insertAfter(element.parent());
+					}
+				});
+			});
+		</script>
+<script>
+    $(window).load(function(){
+      setTimeout(function(){
+
+        $('.loader-live').fadeOut();
+      },1000);
+    })
+
+  </script>
+<script src="js/functions/functions.js"></script>
+</body>
+</html>
